@@ -87,7 +87,10 @@ body {
     height: 50%;
     width: 20%;
   }
-
+  textarea {
+    height: 60%;
+    width: 40%;
+  }
   .nav-link {
     font-size: 1.2rem;
     font-weight: bold;
