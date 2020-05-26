@@ -82,14 +82,15 @@ body {
     font-size: 22px;
   }
   #textarea1 {
-    padding-left: 8rem;
+    padding-left: 7rem;
     padding-top: 1.3rem;
     height: 50%;
-    width: 20%;
+    /*width: 20%;*/
+    margin-left: 1rem;
   }
   textarea {
     height: 60%;
-    width: 40%;
+    width: 100%;
   }
   .nav-link {
     font-size: 1.2rem;
@@ -111,7 +112,6 @@ textarea {
   box-shadow: 0 0.9rem 1rem rgba(0, 0, 0, 0.2);
 }
 #textarea1 {
-  text-align: center;
   padding-left: 6rem;
   padding-top: 1.5rem;
 }
