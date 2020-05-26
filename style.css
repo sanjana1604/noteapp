@@ -97,11 +97,13 @@ body {
     font-weight: bold;
     padding-top: 1.1rem;
   }
+}
+@media (max-width: 420px) {
   #notes {
-    padding-left: 1rem;
+    width: 100%;
+    padding-left: 2rem;
   }
 }
-
 /*style the textarea*/
 textarea {
   display: block;
