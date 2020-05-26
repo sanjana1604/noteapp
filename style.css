@@ -97,6 +97,10 @@ body {
     font-weight: bold;
     padding-top: 1.1rem;
   }
+  #notes {
+    width: 100%;
+    padding-left: 1.5rem;
+  }
 }
 
 /*style the textarea*/
