@@ -103,13 +103,14 @@ textarea {
   border: 1.2px solid #068631;
   font-family: 'Times New Roman', sans-serif;
   font-style: italic;
-
+  width: 50%;
   box-shadow: 0 0.9rem 1rem rgba(0, 0, 0, 0.2);
 }
 #textarea1 {
   text-align: center;
   padding-left: 6rem;
   padding-top: 1.5rem;
+  width: 50%;
 }
 
 .display-6 {
