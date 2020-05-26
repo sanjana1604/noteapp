@@ -62,7 +62,7 @@ body {
 }
 
 /* Add media queries for small screens (when the height of the screen is less than 450px, add a smaller padding and font-size) */
-@media screen and (max-height: 450px) {
+@media (max-width: 576px) {
   .sidebar {
     height: 100%;
     width: 110px;
@@ -85,6 +85,7 @@ body {
     padding-left: 8rem;
     padding-top: 1.3rem;
     height: 50%;
+    width: 20%;
   }
 
   .nav-link {
@@ -103,14 +104,13 @@ textarea {
   border: 1.2px solid #068631;
   font-family: 'Times New Roman', sans-serif;
   font-style: italic;
-  width: 50%;
+
   box-shadow: 0 0.9rem 1rem rgba(0, 0, 0, 0.2);
 }
 #textarea1 {
   text-align: center;
   padding-left: 6rem;
   padding-top: 1.5rem;
-  width: 50%;
 }
 
 .display-6 {
